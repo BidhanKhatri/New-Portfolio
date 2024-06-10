@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- preloading div to show loading animation -->
+    <div id="preloader-wrapper">
+        <span class="preloader-icon">loading...</span>
+    </div>
+
+    <main class="banner">
+
+        <!-- navbar starts -->
+        <nav class="navbar">
+            <div class="left-side">Bidhan.Org</div>
+            <ul class="right-side">
+                    <li>Home</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li>Contact</li>
+                    <li>Hire me</li>
+            </ul>
+        </nav>
+        <!-- navbar ends -->
+
+        <!-- added top left gglow effect -->
+        <div class="glower"></div>
+
+
+        <!-- inner container to display name, social media icons and button -->
+        <div class="inner">
+           <span class="name">Bidhan Khatri</span>
+           <h1 class="text" id="change-text" >I Am A  Developer</h1>
+           <ul class="icons">
+            <li>Facebook</li>
+            <li>Facebook</li>
+            <li>Facebook</li>
+            <li>Facebook</li>
+           </ul>
+            <a href="#about-me"><button class="btn">About Me</button></a>
+        </div>
+
+        <!-- added a canvas to draw circle and line using canvas -->
+         <canvas id="canvas">
+
+        </canvas>
+
+        </main>
+
+        <section class="second-sec" id="about-me">
+            <div class="left-side">
+                <div class="glower-second"></div>
+                <div class="my-content">
+                        <h1 class="text">Hello, I'm <br> Bidhan Khatri</h1>
+                        <p>I am a software engineer, I have good expirence in the field of web.</p>
+                        <button class="btn">Contact Me</button>
+                        <div class="show-details">
+                            <p id="counter" data-ceil="2">1 + <span class="span-text">Years Exp</span></p>
+                            <p id ="counter" data-ceil="100">10 + <span class="span-text">Projects</span></p>
+                            <p id="counter" data-ceil="120">120 + <span class="span-text">Clients</span></p>
+                        </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="my-content-two">
+                    <img class="image" src="/image/bidhan.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="third-sec" id="skills">
+            <div class="glower-third"></div>
+
+            <div class="third-sec-title">My Skills</div>
+            <div class="third-sec-line"></div>
+
+                <div class="slider">
+                        <div class="slider-track">
+                            <div class="slide-image">
+                                <img src="/image/html-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/css-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/js-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/wp.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/java.png">
+                            </div>
+                            <!-- duplicate for continous loop -->
+                            <div class="slide-image">
+                                <img src="/image/html-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/css-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/js-logo.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/wp.png">
+                            </div>
+                            <div class="slide-image">
+                                <img src="/image/java.png">
+                            </div>
+                        </div>
+                </div>
+                <!-- adding another slider -->
+                <div class="slider-two">
+                    <div class="slider-track">
+                        <div class="slide-image">
+                            <img src="/image/java.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/wp.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/js-logo.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/css-logo.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/html-logo.png">
+                        </div>                
+                        <!-- duplicate for continous loop -->
+                        <div class="slide-image">
+                            <img src="/image/java.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/wp.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/js-logo.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/css-logo.png">
+                        </div>
+                        <div class="slide-image">
+                            <img src="/image/html-logo.png">
+                        </div>  
+                    </div>
+            </div>
+            <!-- adding another slider -->
+            <div class="slider-three">
+                <div class="slider-track">
+                    <div class="slide-image">
+                        <img src="/image/node.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/mongo.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/react.png">
+                    </div>
+                    <!-- duplicate for continous loop -->
+                    <div class="slide-image">
+                        <img src="/image/node.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/mongo.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/react.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/node.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/mongo.png">
+                    </div>
+                    <div class="slide-image">
+                        <img src="/image/react.png">
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <!-- section four starts here -->
+        <section class="section-four">
+
+            <div class="glower-four"></div>
+
+            <div class="third-sec-title">Projects</div>
+            <div class="third-sec-line"></div>
+            
+            <div class="image-one">
+            <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanportfolio.netlify.app/" class="btn-active">Old Portfolio</a>
+                </div>
+                    <img src="image/portfolio_old.png" />
+            </div>
+            <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanparallax.netlify.app/" class="btn-active">Parallax Site</a>
+                </div>
+                <img src="image/parallax_site.png" />
+            </div>
+             <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanportfolio.netlify.app/" class="btn-active">See Project</a>
+                </div>
+            <img src="image/admin.png" />
+            </div>
+            <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanportfolio.netlify.app/" class="btn-active">See Project</a>
+                </div>
+                <img src="image/admin.png" />
+            </div>
+            <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanportfolio.netlify.app/" class="btn-active">See Project</a>
+                </div>
+                <img src="image/admin.png" />
+            </div>
+            <div class="image-area">
+                <div class="image-area-inner">
+                    <a href="https://bidhanportfolio.netlify.app/" class="btn-active">See Project</a>
+                </div>
+                <img src="image/admin.png" />
+            </div>
+            </div>
+            
+
+        </section>
+
+        <!-- section five starts here -->
+         <section class="section-five">
+
+            <div class="secFive-inner">
+
+                <form class="form-el" method="POST">
+                    <div class="">
+
+                    </div>
+                </form>
+
+            </div>
+            
+        
+         </section>
+
+       
+
+
+    <script src="script.js"></script>
+</body>
+</html>
